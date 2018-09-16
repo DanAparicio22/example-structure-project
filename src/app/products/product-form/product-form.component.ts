@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../../share/services/user.service';
+import { User } from '../../share/models/user.model';
 
 @Component({
-  selector: 'app-user-form',
-  templateUrl: './user-form.component.html',
-  styleUrls: ['./user-form.component.css']
+  selector: 'app-product-form',
+  templateUrl: './product-form.component.html',
+  styleUrls: ['./product-form.component.css']
 })
-export class UserFormComponent implements OnInit {
+export class ProductFormComponent implements OnInit {
 
   constructor(private userService: UserService) { }
 
